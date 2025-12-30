@@ -19,7 +19,6 @@
 
 #### RestTemplate
 ```
-Date: 30/12/2025 15:36:14
 Total Requests:    20
 Successful:        20 (100%)
 Failed:            0
@@ -33,7 +32,6 @@ Throughput:        0.46 req/s
 
 #### Feign
 ```
-Date: 30/12/2025 15:36:35
 Total Requests:    20
 Successful:        20 (100%)
 Failed:            0
@@ -47,7 +45,6 @@ Throughput:        1.3 req/s
 
 #### WebClient (Mode Synchrone avec block())
 ```
-Date: 30/12/2025 15:36:57
 Total Requests:    20
 Successful:        20 (100%)
 Failed:            0
