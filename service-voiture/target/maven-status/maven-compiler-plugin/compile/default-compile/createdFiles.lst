@@ -1,0 +1,4 @@
+com\lab\voiture\CarRepository.class
+com\lab\voiture\Car.class
+com\lab\voiture\CarController.class
+com\lab\voiture\ServiceVoitureApplication.class
