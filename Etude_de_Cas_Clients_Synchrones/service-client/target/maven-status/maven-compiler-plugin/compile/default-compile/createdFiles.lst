@@ -1,6 +1,0 @@
-com\lab\client\ServiceClientApplication.class
-com\lab\client\CarService.class
-com\lab\client\ClientConfig.class
-com\lab\client\ClientController.class
-com\lab\client\Car.class
-com\lab\client\CarFeignClient.class
