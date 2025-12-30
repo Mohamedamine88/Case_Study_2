@@ -1,28 +1,6 @@
 # Case_Study_2
 Étude de cas : Clients Synchrones (RestTemplate vs Feign vs WebClient) avec Eureka et Consul
 
-### Services à Déployer
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    Service Client (port 8080)              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐     │
-│  │RestTemplate  │  │   Feign      │  │  WebClient   │     │
-│  │  (Sync)      │  │ (Declarative)│  │  (Async->Sync)     │
-│  └──────────────┘  └──────────────┘  └──────────────┘     │
-└─────────────────────────────────────────────────────────────┘
-                           ↓
-         ┌────────────────────────────────────┐
-         │   Discovery Service                │
-         │  (Eureka 8761 OU Consul 8500)     │
-         └────────────────────────────────────┘
-                           ↓
-┌──────────────────────────────────────────────────────────────┐
-│         Service Voiture (port 8081)                         │
-│  - GET /api/cars/byClient/{clientId}                        │
-│  - Délai artificiel: 20ms                                   │
-│  - En mémoire (pas de BD)                                   │
-└──────────────────────────────────────────────────────────────┘
-
 ```
 
 ## Résultats des Tests
